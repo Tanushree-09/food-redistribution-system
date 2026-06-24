@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="home.css"> -->
+</head>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,500;0,700;0,800;1,400;1,600&display=swap');
+    
+body{
+    margin:0;
+    min-height:100vh;
+    background:
+    linear-gradient(rgba(0,0,0,0.55), rgba(0,0,0,0.55)),
+    url('https://images.unsplash.com/photo-1488521787991-ed7bbaae773c?q=80&w=1920&auto=format&fit=crop');
+    
+    background-size:cover;
+    background-position:center;
+    background-repeat:no-repeat;
+}
+
+    .logo{
+    padding-top:50px;
+    font-size:45px;
+    text-align:center;
+    font-family:'Poppins', sans-serif;
+    color:white;
+    font-weight:bold;
+    text-shadow:2px 2px 10px rgba(0,0,0,0.5);
+}
+    .para{
+    text-align:center;
+    font-size:28px;
+    font-family:'Poppins', sans-serif;
+    color:white;
+    margin-bottom:30px;
+}
+    a{
+    display:inline-block;
+    font-size:20px;
+    background:linear-gradient(135deg,#06C167,#04a357);
+    padding:14px 35px;
+    text-decoration:none;
+    font-weight:600;
+    margin:12px auto;
+    color:#fff;
+    letter-spacing:1px;
+    transition:0.3s ease;
+    border-radius:40px;
+    box-shadow:0 8px 20px rgba(6,193,103,0.3);
+}
+    a:hover{
+    transform:translateY(-4px) scale(1.05);
+    box-shadow:0 12px 25px rgba(6,193,103,0.45);
+}
+    .log{
+    width:350px;
+    margin:40px auto;
+    display:grid;
+    align-items:center;
+    padding:40px;
+    background:rgba(255,255,255,0.12);
+    backdrop-filter:blur(10px);
+    border-radius:20px;
+    box-shadow:0 8px 30px rgba(0,0,0,0.25);
+}
+    .add{
+        margin: auto;
+        display:inline-block;
+        align-items:center;
+        padding-left: 540px;
+    }
+    #delivery{
+
+    }
+    /* .log img{
+        margin: auto;
+        width: auto;
+        height: auto;
+    } */
+
+@media only screen and (max-width: 768px) {
+    .logo{
+        font-size: 30px;
+        padding:50px 50px 20px 50px;
+    }
+    .para{
+        font-size: 20px;
+    }
+    a{
+        font-size: 18px;
+    }
+    .add{
+        margin: auto;
+        display:inline-block;
+        align-items:center;
+        padding-left: 30px;
+    }
+}
+</style>
+<body>
+    <p class="logo"> Welcome to Food <b style="color: #06C167; ">Donate</b></p>
+    <p class="para"> Login as</p>
+<div class="log">
+
+    <a href="signup.php">
+        <i class="fa fa-user"></i> User
+    </a>
+
+    <a href="admin/signup.php">
+        <i class="fa fa-user-shield"></i> Admin
+    </a>
+
+    <a href="ngo/login.php">
+        <i class="fa fa-handshake-angle"></i> NGO
+    </a>
+
+    <a href="delivery/deliverysignup.php" id="delivery">
+        <i class="fa fa-motorcycle"></i> Delivery
+    </a>
+
+</div>
+
+<div class="add">
+ 
+</div>
+
+
+    
+</body>
+</html>
