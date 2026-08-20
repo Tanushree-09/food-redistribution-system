@@ -13,7 +13,7 @@ A full-stack web application designed to streamline food donation logistics, red
 
 * **Frontend:** HTML5, CSS3 (Custom Responsive Layouts), JavaScript (ES6), LeafletJS Maps
 * **Backend:** PHP (Object-Oriented Logic)
-* **Database:** MySQL / MariaDB (Relational Database Management)
+* **Database:** MySQL (Relational Database Management)
 * **Dependencies:** PHPMailer (SMTP Email Integration)
 
 ## 📁 Database Schema
